@@ -83,6 +83,10 @@
   margin: -51px auto 0;
 }
 
+.u-section-1 .u-btn-3 {
+  background-image: none;
+}
+
 @media (max-width: 1199px) {
   .u-section-1 .u-btn-1 {
     border-style: none none solid;
@@ -111,22 +115,32 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-btn-1 {
-    margin-top: 47px;
-    margin-right: 48px;
+    margin-top: 15px;
+    margin-right: 101px;
   }
 
   .u-section-1 .u-btn-2 {
-    margin-right: -30px;
+    margin-right: 15px;
   }
 
   .u-section-1 .u-text-1 {
     font-size: 3rem;
     width: 340px;
-    margin-top: 158px;
+    margin-top: 190px;
   }
 
   .u-section-1 .u-text-2 {
     width: 340px;
+  }
+
+  .u-section-1 .u-group-elements-1 {
+    height: auto;
+    margin-top: 236px;
+    margin-bottom: 55px;
+  }
+
+  .u-section-1 .u-btn-3 {
+    padding: 0;
   }
 } .u-section-2 {
   background-image: linear-gradient(#478ac9, #2cccc4);
@@ -193,7 +207,6 @@
 .u-section-2 .u-group-elements-1 {
   width: 71px;
   min-height: 51px;
-  height: auto;
   margin: 154px auto 60px;
 }
 
@@ -220,6 +233,10 @@
   .u-section-2 .u-text-2 {
     margin-right: 542px;
   }
+
+  .u-section-2 .u-group-elements-1 {
+    height: auto;
+  }
 }
 
 @media (max-width: 991px) {
@@ -235,12 +252,28 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 912px;
+  }
+
   .u-section-2 .u-text-1 {
     font-size: 2.25rem;
   }
 
   .u-section-2 .u-text-2 {
     margin-right: 0;
+  }
+
+  .u-section-2 .u-icon-1 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 0.3;
+  }
+
+  .u-section-2 .u-group-elements-1 {
+    margin-top: 19px;
   }
 } .u-section-3 {
   background-image: linear-gradient(#2cccc4, #b9c1cc);
@@ -417,12 +450,17 @@
 
 @media (max-width: 575px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 1437px;
+    min-height: 1330px;
   }
 
   .u-section-3 .u-text-1 {
     width: auto;
-    margin-top: 151px;
+    margin-top: 20px;
     margin-right: 160px;
+  }
+
+  .u-section-3 .u-list-1 {
+    height: auto;
+    min-height: 1038px;
   }
 }
